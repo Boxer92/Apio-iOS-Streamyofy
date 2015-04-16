@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D0C85B41AD45D28008EAB5D /* MyoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0C85B31AD45D27008EAB5D /* MyoKit.framework */; };
+		9531DAB91A8A9EF200C33EE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9531DAB81A8A9EF200C33EE4 /* main.m */; };
+		9531DABC1A8A9EF200C33EE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9531DABB1A8A9EF200C33EE4 /* AppDelegate.m */; };
+		9531DABF1A8A9EF200C33EE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9531DABE1A8A9EF200C33EE4 /* ViewController.m */; };
+		9531DAC21A8A9EF200C33EE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9531DAC01A8A9EF200C33EE4 /* Main.storyboard */; };
+		9531DAC41A8A9EF200C33EE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9531DAC31A8A9EF200C33EE4 /* Images.xcassets */; };
+		9531DAD31A8A9EF200C33EE4 /* apio_streamifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9531DAD21A8A9EF200C33EE4 /* apio_streamifyTests.m */; };
+		9531DADD1A8A9F3200C33EE4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9531DADC1A8A9F3200C33EE4 /* QuartzCore.framework */; };
+		9531DADF1A8A9F4B00C33EE4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9531DADE1A8A9F4B00C33EE4 /* AVFoundation.framework */; };
+		9531DAE11A8A9F6B00C33EE4 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9531DAE01A8A9F6B00C33EE4 /* MediaPlayer.framework */; };
+		9531DAE41A8A9F8800C33EE4 /* HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9531DAE21A8A9F8800C33EE4 /* HexColor.m */; };
+		9531DAEB1A8AA02F00C33EE4 /* VisualizerView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9531DAEA1A8AA02F00C33EE4 /* VisualizerView.mm */; };
+		9531DAEF1A8AA51A00C33EE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9531DAEE1A8AA51A00C33EE4 /* Foundation.framework */; };
+		9531DAF11A8AA52F00C33EE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9531DAF01A8AA52F00C33EE4 /* UIKit.framework */; };
+		9531DAF31A8AA53500C33EE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9531DAF21A8AA53500C33EE4 /* CoreGraphics.framework */; };
+		9531DB051A8B710F00C33EE4 /* Availability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9531DAF81A8B710F00C33EE4 /* Availability.m */; };
+		9531DB061A8B710F00C33EE4 /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9531DAFA1A8B710F00C33EE4 /* HTTPClient.m */; };
+		9531DB071A8B710F00C33EE4 /* NSString+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 9531DAFC1A8B710F00C33EE4 /* NSString+Helpers.m */; };
+		9531DB081A8B710F00C33EE4 /* ApioIOSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9531DAFF1A8B710F00C33EE4 /* ApioIOSocket.m */; };
+		9531DB091A8B710F00C33EE4 /* SIOSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9531DB031A8B710F00C33EE4 /* SIOSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9531DACD1A8A9EF200C33EE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9531DAAB1A8A9EF200C33EE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9531DAB21A8A9EF200C33EE4;
+			remoteInfo = apio_streamify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D0C85B31AD45D27008EAB5D /* MyoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MyoKit.framework; sourceTree = "<group>"; };
+		9531DAB31A8A9EF200C33EE4 /* apio_streamify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apio_streamify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9531DAB71A8A9EF200C33EE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9531DAB81A8A9EF200C33EE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9531DABA1A8A9EF200C33EE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9531DABB1A8A9EF200C33EE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9531DABD1A8A9EF200C33EE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9531DABE1A8A9EF200C33EE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9531DAC11A8A9EF200C33EE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9531DAC31A8A9EF200C33EE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9531DACC1A8A9EF200C33EE4 /* apio_streamifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apio_streamifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9531DAD11A8A9EF200C33EE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9531DAD21A8A9EF200C33EE4 /* apio_streamifyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = apio_streamifyTests.m; sourceTree = "<group>"; };
+		9531DADC1A8A9F3200C33EE4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9531DADE1A8A9F4B00C33EE4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9531DAE01A8A9F6B00C33EE4 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9531DAE21A8A9F8800C33EE4 /* HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColor.m; sourceTree = "<group>"; };
+		9531DAE31A8A9F8800C33EE4 /* HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColor.h; sourceTree = "<group>"; };
+		9531DAE91A8AA02F00C33EE4 /* VisualizerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualizerView.h; sourceTree = "<group>"; };
+		9531DAEA1A8AA02F00C33EE4 /* VisualizerView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VisualizerView.mm; sourceTree = "<group>"; };
+		9531DAEE1A8AA51A00C33EE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9531DAF01A8AA52F00C33EE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9531DAF21A8AA53500C33EE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9531DAF71A8B710F00C33EE4 /* Availability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Availability.h; sourceTree = "<group>"; };
+		9531DAF81A8B710F00C33EE4 /* Availability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Availability.m; sourceTree = "<group>"; };
+		9531DAF91A8B710F00C33EE4 /* HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPClient.h; sourceTree = "<group>"; };
+		9531DAFA1A8B710F00C33EE4 /* HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPClient.m; sourceTree = "<group>"; };
+		9531DAFB1A8B710F00C33EE4 /* NSString+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helpers.h"; sourceTree = "<group>"; };
+		9531DAFC1A8B710F00C33EE4 /* NSString+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helpers.m"; sourceTree = "<group>"; };
+		9531DAFE1A8B710F00C33EE4 /* ApioIOSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApioIOSocket.h; sourceTree = "<group>"; };
+		9531DAFF1A8B710F00C33EE4 /* ApioIOSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApioIOSocket.m; sourceTree = "<group>"; };
+		9531DB021A8B710F00C33EE4 /* SIOSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIOSocket.h; sourceTree = "<group>"; };
+		9531DB031A8B710F00C33EE4 /* SIOSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIOSocket.m; sourceTree = "<group>"; };
+		9531DB041A8B710F00C33EE4 /* socket.io.js.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = socket.io.js.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9531DAB01A8A9EF200C33EE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9531DAF31A8AA53500C33EE4 /* CoreGraphics.framework in Frameworks */,
+				8D0C85B41AD45D28008EAB5D /* MyoKit.framework in Frameworks */,
+				9531DAF11A8AA52F00C33EE4 /* UIKit.framework in Frameworks */,
+				9531DAEF1A8AA51A00C33EE4 /* Foundation.framework in Frameworks */,
+				9531DAE11A8A9F6B00C33EE4 /* MediaPlayer.framework in Frameworks */,
+				9531DADF1A8A9F4B00C33EE4 /* AVFoundation.framework in Frameworks */,
+				9531DADD1A8A9F3200C33EE4 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9531DAC91A8A9EF200C33EE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9531DAAA1A8A9EF200C33EE4 = {
+			isa = PBXGroup;
+			children = (
+				8D0C85B31AD45D27008EAB5D /* MyoKit.framework */,
+				9531DAF21A8AA53500C33EE4 /* CoreGraphics.framework */,
+				9531DAF01A8AA52F00C33EE4 /* UIKit.framework */,
+				9531DAEE1A8AA51A00C33EE4 /* Foundation.framework */,
+				9531DAE01A8A9F6B00C33EE4 /* MediaPlayer.framework */,
+				9531DADE1A8A9F4B00C33EE4 /* AVFoundation.framework */,
+				9531DADC1A8A9F3200C33EE4 /* QuartzCore.framework */,
+				9531DAB51A8A9EF200C33EE4 /* apio_streamify */,
+				9531DACF1A8A9EF200C33EE4 /* apio_streamifyTests */,
+				9531DAB41A8A9EF200C33EE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9531DAB41A8A9EF200C33EE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9531DAB31A8A9EF200C33EE4 /* apio_streamify.app */,
+				9531DACC1A8A9EF200C33EE4 /* apio_streamifyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9531DAB51A8A9EF200C33EE4 /* apio_streamify */ = {
+			isa = PBXGroup;
+			children = (
+				9531DAF61A8B710F00C33EE4 /* SimpleNetworkIO */,
+				9531DAFD1A8B710F00C33EE4 /* apio-ios-sdk */,
+				9531DB001A8B710F00C33EE4 /* SocketIO */,
+				9531DAEC1A8AA49500C33EE4 /* Visualizer */,
+				9531DAED1A8AA4A500C33EE4 /* Helper */,
+				9531DABA1A8A9EF200C33EE4 /* AppDelegate.h */,
+				9531DABB1A8A9EF200C33EE4 /* AppDelegate.m */,
+				9531DABD1A8A9EF200C33EE4 /* ViewController.h */,
+				9531DABE1A8A9EF200C33EE4 /* ViewController.m */,
+				9531DAC01A8A9EF200C33EE4 /* Main.storyboard */,
+				9531DAC31A8A9EF200C33EE4 /* Images.xcassets */,
+				9531DAB61A8A9EF200C33EE4 /* Supporting Files */,
+			);
+			path = apio_streamify;
+			sourceTree = "<group>";
+		};
+		9531DAB61A8A9EF200C33EE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9531DAB71A8A9EF200C33EE4 /* Info.plist */,
+				9531DAB81A8A9EF200C33EE4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9531DACF1A8A9EF200C33EE4 /* apio_streamifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				9531DAD21A8A9EF200C33EE4 /* apio_streamifyTests.m */,
+				9531DAD01A8A9EF200C33EE4 /* Supporting Files */,
+			);
+			path = apio_streamifyTests;
+			sourceTree = "<group>";
+		};
+		9531DAD01A8A9EF200C33EE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9531DAD11A8A9EF200C33EE4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9531DAEC1A8AA49500C33EE4 /* Visualizer */ = {
+			isa = PBXGroup;
+			children = (
+				9531DAE91A8AA02F00C33EE4 /* VisualizerView.h */,
+				9531DAEA1A8AA02F00C33EE4 /* VisualizerView.mm */,
+			);
+			name = Visualizer;
+			sourceTree = "<group>";
+		};
+		9531DAED1A8AA4A500C33EE4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9531DAE21A8A9F8800C33EE4 /* HexColor.m */,
+				9531DAE31A8A9F8800C33EE4 /* HexColor.h */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		9531DAF61A8B710F00C33EE4 /* SimpleNetworkIO */ = {
+			isa = PBXGroup;
+			children = (
+				9531DAF71A8B710F00C33EE4 /* Availability.h */,
+				9531DAF81A8B710F00C33EE4 /* Availability.m */,
+				9531DAF91A8B710F00C33EE4 /* HTTPClient.h */,
+				9531DAFA1A8B710F00C33EE4 /* HTTPClient.m */,
+				9531DAFB1A8B710F00C33EE4 /* NSString+Helpers.h */,
+				9531DAFC1A8B710F00C33EE4 /* NSString+Helpers.m */,
+			);
+			path = SimpleNetworkIO;
+			sourceTree = "<group>";
+		};
+		9531DAFD1A8B710F00C33EE4 /* apio-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				9531DAFE1A8B710F00C33EE4 /* ApioIOSocket.h */,
+				9531DAFF1A8B710F00C33EE4 /* ApioIOSocket.m */,
+			);
+			path = "apio-ios-sdk";
+			sourceTree = "<group>";
+		};
+		9531DB001A8B710F00C33EE4 /* SocketIO */ = {
+			isa = PBXGroup;
+			children = (
+				9531DB011A8B710F00C33EE4 /* Source */,
+			);
+			path = SocketIO;
+			sourceTree = "<group>";
+		};
+		9531DB011A8B710F00C33EE4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9531DB021A8B710F00C33EE4 /* SIOSocket.h */,
+				9531DB031A8B710F00C33EE4 /* SIOSocket.m */,
+				9531DB041A8B710F00C33EE4 /* socket.io.js.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9531DAB21A8A9EF200C33EE4 /* apio_streamify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9531DAD61A8A9EF200C33EE4 /* Build configuration list for PBXNativeTarget "apio_streamify" */;
+			buildPhases = (
+				9531DAAF1A8A9EF200C33EE4 /* Sources */,
+				9531DAB01A8A9EF200C33EE4 /* Frameworks */,
+				9531DAB11A8A9EF200C33EE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = apio_streamify;
+			productName = apio_streamify;
+			productReference = 9531DAB31A8A9EF200C33EE4 /* apio_streamify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9531DACB1A8A9EF200C33EE4 /* apio_streamifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9531DAD91A8A9EF200C33EE4 /* Build configuration list for PBXNativeTarget "apio_streamifyTests" */;
+			buildPhases = (
+				9531DAC81A8A9EF200C33EE4 /* Sources */,
+				9531DAC91A8A9EF200C33EE4 /* Frameworks */,
+				9531DACA1A8A9EF200C33EE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9531DACE1A8A9EF200C33EE4 /* PBXTargetDependency */,
+			);
+			name = apio_streamifyTests;
+			productName = apio_streamifyTests;
+			productReference = 9531DACC1A8A9EF200C33EE4 /* apio_streamifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9531DAAB1A8A9EF200C33EE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = OnCreate;
+				TargetAttributes = {
+					9531DAB21A8A9EF200C33EE4 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 8HDD5NFJM8;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					9531DACB1A8A9EF200C33EE4 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 8HDD5NFJM8;
+						TestTargetID = 9531DAB21A8A9EF200C33EE4;
+					};
+				};
+			};
+			buildConfigurationList = 9531DAAE1A8A9EF200C33EE4 /* Build configuration list for PBXProject "apio_streamify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9531DAAA1A8A9EF200C33EE4;
+			productRefGroup = 9531DAB41A8A9EF200C33EE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9531DAB21A8A9EF200C33EE4 /* apio_streamify */,
+				9531DACB1A8A9EF200C33EE4 /* apio_streamifyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9531DAB11A8A9EF200C33EE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9531DAC21A8A9EF200C33EE4 /* Main.storyboard in Resources */,
+				9531DAC41A8A9EF200C33EE4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9531DACA1A8A9EF200C33EE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9531DAAF1A8A9EF200C33EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9531DB051A8B710F00C33EE4 /* Availability.m in Sources */,
+				9531DABF1A8A9EF200C33EE4 /* ViewController.m in Sources */,
+				9531DB081A8B710F00C33EE4 /* ApioIOSocket.m in Sources */,
+				9531DAE41A8A9F8800C33EE4 /* HexColor.m in Sources */,
+				9531DB071A8B710F00C33EE4 /* NSString+Helpers.m in Sources */,
+				9531DABC1A8A9EF200C33EE4 /* AppDelegate.m in Sources */,
+				9531DAEB1A8AA02F00C33EE4 /* VisualizerView.mm in Sources */,
+				9531DAB91A8A9EF200C33EE4 /* main.m in Sources */,
+				9531DB091A8B710F00C33EE4 /* SIOSocket.m in Sources */,
+				9531DB061A8B710F00C33EE4 /* HTTPClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9531DAC81A8A9EF200C33EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9531DAD31A8A9EF200C33EE4 /* apio_streamifyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9531DACE1A8A9EF200C33EE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9531DAB21A8A9EF200C33EE4 /* apio_streamify */;
+			targetProxy = 9531DACD1A8A9EF200C33EE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9531DAC01A8A9EF200C33EE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9531DAC11A8A9EF200C33EE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9531DAD41A8A9EF200C33EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9531DAD51A8A9EF200C33EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9531DAD71A8A9EF200C33EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = apio_streamify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		9531DAD81A8A9EF200C33EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = apio_streamify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		9531DADA1A8A9EF200C33EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = apio_streamifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apio_streamify.app/apio_streamify";
+			};
+			name = Debug;
+		};
+		9531DADB1A8A9EF200C33EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = apio_streamifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apio_streamify.app/apio_streamify";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9531DAAE1A8A9EF200C33EE4 /* Build configuration list for PBXProject "apio_streamify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9531DAD41A8A9EF200C33EE4 /* Debug */,
+				9531DAD51A8A9EF200C33EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9531DAD61A8A9EF200C33EE4 /* Build configuration list for PBXNativeTarget "apio_streamify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9531DAD71A8A9EF200C33EE4 /* Debug */,
+				9531DAD81A8A9EF200C33EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9531DAD91A8A9EF200C33EE4 /* Build configuration list for PBXNativeTarget "apio_streamifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9531DADA1A8A9EF200C33EE4 /* Debug */,
+				9531DADB1A8A9EF200C33EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9531DAAB1A8A9EF200C33EE4 /* Project object */;
+}
