@@ -255,10 +255,22 @@
                 actualPoint = 0;
             }
             
+            
+            NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
+            NSMutableDictionary *properties = [[NSMutableDictionary alloc] init];
+            [properties setObject:actualPoint forKey:@"Point"];
+            
+            [dict setObject:@"11111" forKey:@"address"];
+            [dict setObject:properties forKey:@"properties"];
+            [dict setObject:@"true" forKey:@"writeToDatabase"];
+            //[dict setObject:@"true" forKey:@"writeToSerial"];
+            [dict setObject:@"false" forKey:@"writeToSerial"];
+            NSDictionary *data = [[NSDictionary alloc] initWithDictionary:dict];
+            
             //NSLog(@"actualPoint vale %f", actualPoint);
             //NSLog(@"rollio vale: %f", roll);
             
-            [self setVolume:actualPoint];
+           [self.aios emit:@"apio_notification" data:data];
         }
     }
     self.fistCounter++;
